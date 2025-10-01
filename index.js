@@ -27,6 +27,8 @@ let scoreValues = {
     "R": "Resilience"
 }
 
+
+
 let afterSchoolClubs = {
     athletic: [
         {
