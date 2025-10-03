@@ -92,13 +92,19 @@ console.log(takeCareOfPet)
 // ----------------------------
 // 5th Floor
 let openMessage = ["Open Sesame"]
-
-openMessage.push("Open Sesame")
-openMessage.push("Open Sesame")
-openMessage.push("Open Sesame")
-openMessage.push("Open Sesame")
-openMessage.push("Open Sesame")
+function escape(openMessage){
 
 
+openMessage.push("Open Sesame")
+openMessage.push("Open Sesame")
+openMessage.push("Open Sesame")
+openMessage.push("Open Sesame")
+openMessage.push("Open Sesame")
+
+console.log(openMessage)
+
+return escape(openMessage)
+
+}
 
 // Commit and show us to unlock the next floor's instructions
